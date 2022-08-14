@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Amrut-PhotographyApp/static/css/main.a30cd811.css",
+    "main.js": "/Amrut-PhotographyApp/static/js/main.60cb6fc8.js",
+    "static/js/787.f71ffe78.chunk.js": "/Amrut-PhotographyApp/static/js/787.f71ffe78.chunk.js",
+    "index.html": "/Amrut-PhotographyApp/index.html",
+    "main.a30cd811.css.map": "/Amrut-PhotographyApp/static/css/main.a30cd811.css.map",
+    "main.60cb6fc8.js.map": "/Amrut-PhotographyApp/static/js/main.60cb6fc8.js.map",
+    "787.f71ffe78.chunk.js.map": "/Amrut-PhotographyApp/static/js/787.f71ffe78.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a30cd811.css",
+    "static/js/main.60cb6fc8.js"
+  ]
+}
