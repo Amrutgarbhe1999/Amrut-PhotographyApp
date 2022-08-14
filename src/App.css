@@ -1,0 +1,881 @@
+@import url('https://fonts.googleapis.com/css2?family=Bakbak+One&family=Cormorant+SC&family=Karla:wght@300&family=Merriweather:wght@900&family=Mohave:wght@600&family=Montserrat:wght@100&family=Nunito:wght@300;500&family=Open+Sans&family=Poppins:ital@1&family=Rubik:wght@500&family=Source+Sans+Pro:wght@200&display=swap');
+
+* {
+  padding: 0;
+  overflow-x: hidden;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Bakbak One', cursive;
+  font-family: 'Cormorant SC', serif;
+  font-family: 'Karla', sans-serif;
+  font-family: 'Merriweather', serif;
+  font-family: 'Mohave', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Nunito', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Rubik', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 11vh;
+
+}
+
+.logo h1 {
+  font-size: 1.5rem;
+}
+
+.lists {
+  display: flex;
+  gap: 1.5rem;
+
+}
+
+
+.lists a {
+  font-weight: 900;
+  font-size: 0.9rem;
+
+
+  text-decoration: none;
+  color: black;
+}
+
+.main_image {
+  display: flex;
+  height: 120vh;
+  overflow-y: hidden;
+}
+
+.left,
+.right {
+  width: 50%;
+}
+
+.right {
+  background-color: rgb(236, 201, 1);
+}
+
+.imageContent {
+  display: flex;
+  flex-direction: column;
+  overflow-y: hidden;
+  width: 56%;
+  position: relative;
+  margin: auto;
+  top: 3rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.imageContent span {
+  color: black;
+}
+
+.imageContent p {
+  text-align: justify;
+  font-size: 17px;
+  font-weight: 900;
+
+}
+
+.imageContent h1 {
+  font-weight: 1500;
+  text-align: justify;
+  color: white;
+  font-size: 3rem;
+}
+
+.imageContent a {
+  margin-top: 2rem;
+  font-weight: 900;
+  padding: 10px 25px;
+  border-radius: 30px;
+  border: 5px solid white;
+  color: white;
+  text-decoration: none;
+
+}
+
+.left img {
+  height: 100%;
+}
+
+.info-heading {
+  justify-content: center;
+  display: flex;
+  margin: auto;
+  align-items: center;
+  margin-top: 5rem;
+  flex-direction: column;
+}
+
+.info-heading p {
+  letter-spacing: 1px;
+  font-weight: 900;
+  color: gray;
+  font-size: 25px;
+  line-height: 30px;
+}
+
+.more_things {
+  display: flex;
+  margin-top: 5rem;
+}
+
+.thing {
+  width: 23vw;
+  border: 1px solid #80808042;
+  padding: 24px 20px;
+}
+
+.icon i {
+
+  text-align: justify;
+  margin: 0 6rem;
+  font-size: 2rem;
+  color: rgb(236, 201, 1);
+
+}
+
+.brief p {
+  font-size: 0.9rem;
+  font-weight: 700;
+  text-align: center;
+  line-height: 22px;
+  margin-top: 1rem;
+  color: gray;
+}
+
+.brief h4 {
+  font-weight: bold;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.things {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  gap: 3rem;
+
+}
+
+.work_image img {
+  width: 12rem;
+  height: 9rem;
+  margin-top: 5rem;
+}
+
+.work_image {
+  display: flex;
+  gap: 3rem;
+  align-items: center;
+
+  justify-content: center;
+  margin: auto;
+}
+
+.work {
+  margin-top: 6rem;
+  height: 100vh;
+}
+
+.work h1 {
+  font-size: 2.6rem;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-transform: uppercase;
+}
+
+.work h1,
+p {
+  text-align: center;
+}
+
+.work p {
+  font-weight: 900;
+
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+}
+
+.work_image img:hover {
+  filter: brightness(50%);
+  transition: 0.2s;
+}
+
+.work a {
+  font-size: 20px;
+  padding: 4px 21px;
+  color: black;
+  border: 3px solid gray;
+  border-radius: 30px;
+  font-weight: 900;
+  text-decoration: none;
+
+}
+
+.seemore {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem 0;
+}
+
+.work a:hover {
+  background-color: black;
+  color: white;
+  padding: 5px 29px;
+  transition: 0.5s;
+}
+
+.contactus {
+  height: 110vh;
+  margin-top: 7rem;
+  background-color: rgb(236, 201, 1);
+  scroll-behavior: none;
+
+}
+
+.contact_heading {
+  position: relative;
+  top: 6rem;
+}
+
+.contactus h1,
+p {
+  text-align: center;
+  font-weight: 900;
+
+
+}
+
+.contact_heading p {
+  margin-top: 1rem;
+  font-size: 16px;
+  letter-spacing: 0.8px;
+}
+
+.contactus span {
+  color: white;
+}
+
+.form {
+  position: relative;
+  top: 7rem;
+  display: flex;
+  flex-direction: column;
+  width: 70vw;
+
+  margin: auto;
+}
+
+.form input {
+  background-color: transparent;
+  border-width: 0 0 1px;
+  margin-top: 3rem;
+  outline: none;
+}
+
+.form input::placeholder {
+  color: black;
+  font-weight: 900;
+  font-size: 20px;
+
+}
+
+.btn {
+  margin-top: 1.3rem;
+  margin-left: 30rem;
+}
+
+.btn button {
+  padding: 11px 2.5rem;
+  display: flex;
+  align-items: center;
+  outline: none;
+  border: 4px solid rgb(255, 255, 255);
+  border-radius: 30px;
+  font-size: 20px;
+  color: white;
+  background: transparent;
+}
+
+footer {
+  background-color: black;
+  height: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+footer p {
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 900;
+  text-align: center;
+  font-size: 15px;
+}
+
+.clients {
+  margin-top: 20rem;
+  background-color: rgb(236, 201, 1);
+  height: 140vh;
+}
+
+.clientsheading {
+  position: relative;
+  top: 18rem;
+}
+
+.clientsheading p {
+  margin-top: 3rem;
+  line-height: 36px;
+}
+
+.clientsheading h1,
+p {
+  text-align: center;
+}
+
+.number h2,
+span {
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.number {
+  margin-top: 7.2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.number h2 {
+  color: white;
+  font-size: 4rem;
+}
+
+.clientsheading h1 {
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.counts {
+  display: flex;
+  gap: 4rem;
+}
+
+.clientsheading {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.client_image {
+  position: absolute;
+  height: 85vh;
+  top: 127rem;
+  overflow-y: hidden;
+  margin: auto;
+  display: flex;
+  right: 8rem;
+  justify-content: center;
+  align-items: center;
+  border: 19px solid white;
+  border-radius: 11px;
+
+}
+
+.differentSection {
+  height: 100vh;
+  margin-top: 8rem;
+  overflow-y: hidden;
+}
+
+.twosidess {
+  display: flex;
+}
+
+.image_side {
+  width: 60%;
+  overflow-y: hidden;
+  display: flex;
+  flex-direction: column;
+
+
+}
+
+.different_heading {
+  width: 40%;
+}
+
+.image_side img {
+  width: 23rem;
+  margin-top: 5rem;
+  height: 20rem;
+  overflow-y: hidden;
+  margin-left: 4rem;
+  filter: brightness(89%);
+}
+
+.two {
+  width: 23rem;
+  margin-top: 5rem;
+  height: 20rem;
+  overflow-y: hidden;
+  margin-left: 4rem;
+  position: relative;
+  bottom: 29rem;
+  filter: brightness(89%);
+  left: 5rem;
+}
+
+.different_heading h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 900;
+  margin-top: 5rem;
+  color: rgb(32, 32, 32);
+
+}
+
+.different_heading p {
+  text-align: justify;
+  color: rgb(119, 118, 118);
+  font-weight: 900;
+  margin-top: 2rem;
+
+}
+
+.Latest {
+  height: 170vh;
+  overflow-y: hidden;
+  margin-top: 6rem;
+  background-color: rgb(248, 248, 248);
+}
+
+.Latest_Heading {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.Latest_Heading h1 {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: 900;
+  color: rgb(31, 30, 30);
+  font-size: 3rem;
+  text-transform: uppercase;
+}
+
+.Latest_Heading p {
+  font-weight: 700;
+  margin-top: 2rem;
+  color: rgb(145, 141, 141);
+  line-height: 32px;
+}
+
+.Latest_images {
+  display: flex;
+  margin-top: 6rem;
+}
+
+.rimage,
+.limage {
+  width: 50%;
+}
+
+.twoimage {
+  display: flex;
+}
+
+.rimage img {
+  width: 27rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  height: 30rem;
+}
+
+.limage img {
+  width: 28rem;
+  height: 12rem;
+  overflow-y: hidden;
+}
+
+.twoimage img {
+  width: 12rem;
+  height: 15rem;
+  margin-top: 1rem;
+}
+
+.Latest a {
+  text-decoration: none;
+  color: gray;
+  border: 3px solid gray;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 5rem auto;
+
+  width: 9rem;
+  padding: 12px 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+}
+
+.Latest a:hover {
+  width: 10rem;
+  transition: 0.5s;
+}
+
+.fromclients {
+  margin-top: 5rem;
+}
+
+.FromClientsheading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  flex-direction: column;
+
+}
+
+.FromClientsheading h1 {
+  font-size: 3rem;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: 900;
+  text-transform: uppercase;
+
+}
+
+.FromClientsheading p {
+  line-height: 30px;
+  margin-top: 2rem;
+  color: rgb(136, 136, 136);
+
+}
+
+.Info {
+  display: flex;
+  gap: 2rem;
+}
+
+.infoimage img {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+}
+
+.clientsinfo {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  margin-top: 5rem;
+  gap: 3rem;
+  align-items: center;
+
+}
+
+.aboutclient {
+  text-align: justify;
+  width: 26vw;
+
+}
+
+.aboutclient p {
+  text-align: justify;
+  font-size: 18px;
+  color: rgb(136, 136, 136);
+}
+
+.clientsabout {
+  margin-top: 2rem;
+}
+
+.clientsabout h5 {
+  font-weight: 700;
+  color: rgb(82, 81, 81);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.clientsabout p {
+  font-size: 15px;
+}
+
+.Working {
+  margin-top: 8rem;
+}
+
+.Working h1 {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 3rem;
+}
+
+.Working_sec {
+  display: flex;
+  margin-left: 5rem;
+  margin-top: 7rem;
+}
+
+.Working_desc,
+.Working_pic {
+  width: 50%;
+}
+
+.Working_desc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 25rem;
+
+}
+
+.Working_desc h2 {
+  font-size: 4rem;
+  font-weight: 900;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: rgb(247, 225, 27);
+  text-align: left;
+}
+
+.Working_desc h3 {
+  font-family: 'Times New Roman', Times, serif;
+  color: rgb(48, 48, 48);
+  text-align: left;
+}
+
+.Working_desc p {
+  color: rgb(121, 121, 121);
+  line-height: 33px;
+  text-align: left;
+  margin-top: 1rem;
+}
+
+.Working_pic img {
+  width: 22rem;
+  height: 22rem;
+}
+
+.Working_desc a {
+  text-decoration: none;
+  color: gray;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: 700;
+  border: 5px solid gray;
+  border-radius: 30px;
+  padding: 7px 45px;
+  margin-top: 2rem;
+  text-align: center;
+}
+
+
+
+
+
+@media screen and (max-width: 1091px) {
+  .main_image {
+    display: flex;
+    flex-direction: column;
+    overflow-y: hidden;
+  }
+
+  .imageContent {
+    width: 89%;
+    height: 57vh;
+    overflow-y: hidden;
+    margin-top: -88px;
+
+  }
+
+  .nav {
+    display: none;
+  }
+
+  .imageContent h1 {
+    font-size: 25px;
+  }
+
+  .right {
+    width: 100%;
+    overflow-y: hidden;
+  }
+
+  .imageContent a {
+    font-size: 19px;
+    display: none;
+  }
+
+  .left {
+    width: 100%;
+    overflow-y: hidden;
+    height: 44vh;
+  }
+
+  .info-heading p {
+    font-size: 15px;
+  }
+
+  .brief p {
+    font-size: 15px;
+  }
+
+  .info-heading {
+    margin-top: -7rem;
+  }
+
+  .thing {
+    width: 15rem;
+    padding: 24px 42px;
+  }
+
+  .icon i {
+    margin: 0 5rem;
+  }
+
+  .things {
+    display: flex;
+    flex-direction: column;
+  }
+  .client_image{
+    position: absolute;
+    height: 47vh;
+    top: 196rem;
+    overflow-y: hidden;
+    margin: auto;
+    display: flex;
+    width: 19rem;
+    right: 1rem;
+    justify-content: center;
+    align-items: center;
+    border: 19px solid white;
+    border-radius: 11px;
+  }
+  .work_image{
+    display: flex;
+    flex-direction: column;
+    gap: 0rem;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+  }
+  .clientsheading{
+    top: 11rem;
+  }
+.clientsheading h1{
+  font-size: 30px;
+}
+.counts h2{
+  font-size: 33px;
+}
+.counts span{
+  font-size: 15px;
+}
+.counts{
+  gap: 1rem;
+}
+.work{
+  overflow-y: hidden;
+}
+.clients{
+  margin-top: 13rem;
+}
+.twosidess{
+  flex-direction: column;
+}
+.image_side{
+  width: 100%;
+}
+.image_side img{
+  width: 10rem;
+  height: 18rem;
+  margin-left:3rem ;
+}
+.Latest{
+  margin-top: -10rem;
+}
+.Latest_Heading h1{
+  text-align: center;
+}
+.rimage img {
+    width: 9rem;
+    height: 19rem;
+
+}
+.limage img {
+    width: 10rem;
+    height: 6rem;
+}
+.twoimage{
+  flex-direction: column;
+  margin-top: -1rem;
+}
+.twoimage img{
+  margin-left: 0;
+}
+.FromClientsheading h1{
+  text-align: center;
+  font-size: 2.5rem;
+}
+.clientsinfo{
+  flex-direction: column;
+}
+.Info{
+  width: 84vw;
+}
+.aboutclient{
+  width: 58vw;
+}
+.Working_desc h2{
+  font-size: 2.5rem;
+}
+.Working_desc h3{
+  font-size: 16px;
+}
+.Working_desc p{
+  line-height: 28px;
+  font-size: 11px;
+    
+}
+.Working_sec{
+  margin-left: 0%;
+}
+.Working_desc{
+  width: 9rem;
+}
+.Working_pic img{
+  width: 10rem;
+}
+.Working_desc a{
+  border: 3px solid gray;
+    border-radius: 29px;
+    padding: 8px 34px;
+    font-size: 11px;
+}
+
+
+
+}
